@@ -1,0 +1,21 @@
+{
+  "name": "colors-of-bjj",
+  "displayName": "Colors of BJJ",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Colors of BJJ",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Colors of BJJ-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,8 +1,20 @@
 {
   "name": "colors-of-bjj",
   "displayName": "Colors of BJJ",
-  "description": "",
+  "description": "The VS Code Theme for BJJ lovers and everyone that want try something new",
   "version": "0.0.1",
+  "publisher": "LeandroCunha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandrocunha/colors-of-bjj"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "javascript",
+    "bjj",
+    "brazilian jiu jitsu"
+  ],
   "engines": {
     "vscode": "^1.70.0"
   },

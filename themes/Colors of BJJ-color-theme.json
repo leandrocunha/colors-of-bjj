@@ -63,6 +63,7 @@
 			"scope": [		
 				"keyword.operator.type.annotation.js",
 				"meta.object-literal.key.js",
+				"meta.template.expression.js",
 				"punctuation.definition.binding-pattern.object.js",
 				"punctuation.definition.dictionary.begin.json",
 				"punctuation.definition.dictionary.end.json",
@@ -72,7 +73,6 @@
 				"variable.other.readwrite.alias.js",
 				"variable.object.property.js",
 				"variable.other.constant.js",
-				"variable.other.readwrite.js",
 				"variable.parameter.js",
 				"variable.other.object.js"
 			],
@@ -96,7 +96,8 @@
 			"scope": [
 				"punctuation.support.type.property-name.begin.json",
 				"punctuation.support.type.property-name.end.json",
-				"support.type.property-name.json"
+				"support.type.property-name.json",
+				"entity.name.tag.yaml"
 			],
 			"settings": {
 				"foreground": "#c792e9"
@@ -107,7 +108,8 @@
 			"scope": [
 				"punctuation.definition.string.begin.json",
 				"punctuation.definition.string.end.json",
-				"string.quoted.double.json"
+				"string.quoted.double.json",
+				"string.quoted.double.yaml"
 			],
 			"settings": {
 				"foreground": "#F0A800"
@@ -118,7 +120,8 @@
 			"scope": [
 				"constant.language.json",
 				"constant.numeric.json",
-				"entity.other.attribute-name.js"
+				"constant.numeric.integer.yaml",
+				"entity.other.attribute-name.js",
 			],
 			"settings": {
 				"foreground": "#60D800"
@@ -143,7 +146,7 @@
 				"keyword.operator.ternary.js",
 				"storage.type.js",
 				"storage.type.type.js",
-				"storage.type.function.arrow.js"
+				"storage.type.function.arrow.js",
 			],
 			"settings": {
 				"foreground": "#C0D8F0",
@@ -153,7 +156,10 @@
 		{
 			"name": "Other",
 			"scope": [
-				"string.quoted.double.js"
+				"string.quoted.double.js",
+				"string.quoted.single.js",
+				"string.template.js",
+				"string.unquoted.plain.out.yaml"
 			],
 			"settings": {
 				"foreground": "#D8A878"
@@ -183,8 +189,6 @@
 		{
 			"name": "Other",
 			"scope": [
-				"meta.brace.round.js",
-				"meta.function-call.js"
 			],
 			"settings": {
 				"foreground": "#D8A878"
@@ -205,7 +209,9 @@
 				"keyword.control.default.js",
 				"keyword.operator.arithmetic.js",
 				"keyword.control.flow.js",
-				"storage.type.function.js"
+				"storage.modifier.async.js",
+				"storage.type.function.js",
+				"support.type.object.module.js",
 			],
 			"settings": {
 				"foreground": "#4FAD33"
@@ -222,8 +228,10 @@
 		{
 			"name": "Other",
 			"scope": [
+				"constant.language.boolean.yaml",
 				"entity.name.type.alias.js",
-				"entity.name.type.js"
+				"entity.name.type.js",
+				"new.expr.js"
 			],
 			"settings": {
 				"foreground": "#6090F0",
@@ -233,8 +241,21 @@
 		{
 			"name": "Other",
 			"scope": [
+				"meta.var.expr.js",
+				"source.js"
+			],
+			"settings": {
+				"foreground": "#6090F0"
+			}
+		},
+		{
+			"name": "Other",
+			"scope": [
 				"keyword.control.conditional.js",
-				"keyword.operator.ternary.js"
+				"keyword.operator.ternary.js",
+				"meta.array.literal.js",
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.end.js"
 			],
 			"settings": {
 				"foreground": "#FF5370"
@@ -243,7 +264,18 @@
 		{
 			"name": "Other",
 			"scope": [
-				"constant.numeric"
+				"keyword.operator.new.js"
+			],
+			"settings": {
+				"foreground": "#FF5370",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Other",
+			"scope": [
+				"constant.numeric",
+				"variable.other.readwrite"
 			],
 			"settings": {
 				"foreground": "#E2D0B9"				

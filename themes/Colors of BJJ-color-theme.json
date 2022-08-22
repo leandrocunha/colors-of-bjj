@@ -27,7 +27,7 @@
 		// SIDEBAR
 		"sideBar.background": "#282626",
 		"sideBarSectionHeader.background": "#191818",
-		"sideBarSectionHeader.border": "#FFFFFF00",
+		"sideBarSectionHeader.border": "#282626",
 		"sideBarTitle.foreground": "#9A9696",
 
 		// BUTTON

@@ -282,5 +282,13 @@
 				"foreground": "#E2D0B9"				
 			}
 		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#E9C79255",
+				"fontStyle": "italic"
+			}
+		}
 	]
 }

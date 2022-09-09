@@ -289,6 +289,34 @@
 				"foreground": "#E9C79255",
 				"fontStyle": "italic"
 			}
-		}
+		},
+		{
+			"name": "Other",
+			"scope": "text.html.markdown",
+			"settings": {
+				"foreground": "#F0A800"
+			}
+		},
+		{
+			"name": "Other",
+			"scope": "markup.heading.markdown",
+			"settings": {
+				"foreground": "#c792e9"
+			}			
+		},
+		{
+			"name": "Other",
+			"scope": "meta.link.inline.markdown",
+			"settings": {
+				"foreground": "#6090F0"
+			}			
+		},
+		{
+			"name": "Other",
+			"scope": "markup.fenced_code.block.markdown",
+			"settings": {
+				"foreground": "#E2D0B9"
+			}			
+		},	
 	]
 }

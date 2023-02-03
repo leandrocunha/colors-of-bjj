@@ -1,322 +1,87 @@
 {
-	"name": "Colors of BJJ",
-	"colors": {
-		//BASE COLORS
-		"focusBorder": "#4c2a0020",
-		"foreground": "#9A9696",
-		
-		// ACTIVITY BAR
-		"activityBar.background": "#191818",
-		"activityBar.activeBackground": "#282626",
-		"activityBar.activeBorder": "#D30033",
-		"activityBar.border": "#4C2A00",
-		"activityBarBadge.background": "#D30033",
-		"activityBarBadge.foreground": "#D3C4C4",
-
-		// EDITOR
-		"editor.background": "#191818",
-		"editorLineNumber.foreground": "#413E3E",
-		"editorLineNumber.activeForeground": "#D3C4C4",
-
-		// EDITOR GROUPS & TABS
-		"tab.activeBorderTop": "#D30033",
-		"tab.inactiveBackground": "#282626",
-		"tab.inactiveForeground": "#817C7C",
-		"editorGroupHeader.tabsBackground": "#282626",
-
-		// SIDEBAR
-		"sideBar.background": "#282626",
-		"sideBarSectionHeader.background": "#191818",
-		"sideBarSectionHeader.border": "#282626",
-		"sideBarTitle.foreground": "#9A9696",
-		"sideBar.border": "#282626",
-
-		// BUTTON
-		"button.background": "#4C2A00",
-		"button.foreground": "#E2D0B9",
-		"button.secondaryBackground": "#392813",
-		"button.secondaryForeground": "#9A9696",
-
-		// LISTS AND TREES
-		"list.activeSelectionBackground": "#4C2A00",
-		"list.inactiveSelectionBackground": "#392813",
-		"list.hoverBackground": "#282626",
-
-		//PANEL
-		"panel.border": "#4C2A00",
-		"panelTitle.activeBorder": "#D30033",
-		"panelTitle.activeForeground": "#E2D0B9",
-
-		// INTEGRATED TERMINAL
-
-		// STATUS BAR
-		"statusBar.background": "#4C2A00",
-
-		// TITLE BAR
-		"titleBar.activeBackground": "#282626",
-
-		// BREADCRUMB
-		"breadcrumb.background": "#191818",
-	},
-	"tokenColors": [
-		{
-			"name": "Other",
-			"scope": [		
-				"keyword.operator.type.annotation.js",
-				"meta.object-literal.key.js",
-				"meta.template.expression.js",
-				"punctuation.definition.binding-pattern.object.js",
-				"punctuation.definition.dictionary.begin.json",
-				"punctuation.definition.dictionary.end.json",
-				"punctuation.separator.dictionary.key-value.json",
-				"punctuation.separator.dictionary.pair.json",
-				"punctuation.definition.block.js",
-				"variable.other.readwrite.alias.js",
-				"variable.object.property.js",
-				"variable.other.constant.js",
-				"variable.parameter.js",
-				"variable.other.object.js"
-			],
-			"settings": {
-				"foreground": "#c792e9"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"variable.other.object.property.js",
-				"variable.other.property.js"
-			],
-			"settings": {
-				// "foreground": "#A890D8"
-				"foreground": "#B8AEF5"
-			}
-		},
-		{
-			"name": "String",
-			"scope": [
-				"punctuation.support.type.property-name.begin.json",
-				"punctuation.support.type.property-name.end.json",
-				"support.type.property-name.json",
-				"entity.name.tag.yaml"
-			],
-			"settings": {
-				"foreground": "#c792e9"
-			}
-		},
-		{
-			"name": "String",
-			"scope": [
-				"punctuation.definition.string.begin.json",
-				"punctuation.definition.string.end.json",
-				"string.quoted.double.json",
-				"string.quoted.double.yaml"
-			],
-			"settings": {
-				"foreground": "#F0A800"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"constant.language.json",
-				"constant.numeric.json",
-				"constant.numeric.integer.yaml",
-				"entity.other.attribute-name.js",
-			],
-			"settings": {
-				"foreground": "#60D800"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"punctuation.definition.tag.begin.js",
-				"punctuation.definition.tag.end.js",
-				"support.class.component.js"
-			],
-			"settings": {
-				"foreground": "#C0D8F0"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"keyword.operator.assignment.js",
-				"keyword.operator.comparison.js",
-				"keyword.operator.ternary.js",
-				"storage.type.js",
-				"storage.type.type.js",
-				"storage.type.function.arrow.js",
-			],
-			"settings": {
-				"foreground": "#C0D8F0",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"string.quoted.double.js",
-				"string.quoted.single.js",
-				"string.template.js",
-				"string.unquoted.plain.out.yaml"
-			],
-			"settings": {
-				"foreground": "#D8A878"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"keyword.control.import.js",
-				"keyword.control.from.js"
-			],
-			"settings": {
-				"foreground": "#D87800"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"meta.definition.function.js",
-				"punctuation.definition.parameters.begin.js",
-				"punctuation.definition.parameters.end.js"
-			],
-			"settings": {
-				"foreground": "#F0A800"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-			],
-			"settings": {
-				"foreground": "#D8A878"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [				
-			],
-			"settings": {
-				"foreground": "#7848D8"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"keyword.control.export.js",
-				"keyword.control.default.js",
-				"keyword.operator.arithmetic.js",
-				"keyword.control.flow.js",
-				"storage.modifier.async.js",
-				"storage.type.function.js",
-				"support.type.object.module.js",
-			],
-			"settings": {
-				"foreground": "#4FAD33"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-			],
-			"settings": {
-				"foreground": "#D30033"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"constant.language.boolean.yaml",
-				"entity.name.type.alias.js",
-				"entity.name.type.js",
-				"new.expr.js"
-			],
-			"settings": {
-				"foreground": "#6090F0",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"meta.var.expr.js",
-				"source.js"
-			],
-			"settings": {
-				"foreground": "#6090F0"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"keyword.control.conditional.js",
-				"keyword.operator.ternary.js",
-				"meta.array.literal.js",
-				"punctuation.definition.template-expression.begin.js",
-				"punctuation.definition.template-expression.end.js"
-			],
-			"settings": {
-				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"keyword.operator.new.js"
-			],
-			"settings": {
-				"foreground": "#FF5370",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": [
-				"constant.numeric",
-				"variable.other.readwrite"
-			],
-			"settings": {
-				"foreground": "#E2D0B9"				
-			}
-		},
-		{
-			"name": "Comment",
-			"scope": "comment",
-			"settings": {
-				"foreground": "#E9C79255",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": "text.html.markdown",
-			"settings": {
-				"foreground": "#F0A800"
-			}
-		},
-		{
-			"name": "Other",
-			"scope": "markup.heading.markdown",
-			"settings": {
-				"foreground": "#c792e9"
-			}			
-		},
-		{
-			"name": "Other",
-			"scope": "meta.link.inline.markdown",
-			"settings": {
-				"foreground": "#6090F0"
-			}			
-		},
-		{
-			"name": "Other",
-			"scope": "markup.fenced_code.block.markdown",
-			"settings": {
-				"foreground": "#E2D0B9"
-			}			
-		},	
-	]
+  "name": "Colors of BJJ",
+  "semanticHighlighting": true,
+  "type": "dark",
+  "colors": {
+    // "editor.background": "#1D1E2A"
+    "editor.background": "#191A1E"
+  },
+  "tokenColors": [
+    {
+      "name": "Default",
+      "scope": "source",
+      "settings": {
+        "foreground": "#078ad6"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#60616F9C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Imports",
+      "scope": [
+        "keyword.control",
+        "storage.type",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison",
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string", "variable.other"],
+      "settings": {
+        "foreground": "#b5daf1"
+      }
+    },
+    {
+      "name": "Strings Quoted",
+      "scope": ["string.quoted", "string.template"],
+      "settings": {
+        "foreground": "#FFF074c0"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["meta.definition.variable"],
+      "settings": {
+        "foreground": "#894DE6"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#A477EB"
+      }
+    },
+    {
+      "name": "Parameters",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#ebac00e1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": [
+        "meta.type.annotation",
+        "entity.name.type.alias",
+        "meta.return.type"
+      ],
+      "settings": {
+        "foreground": "#7D85EC",
+        "fontStyle": "italic"
+      }
+    }
+  ]
 }
